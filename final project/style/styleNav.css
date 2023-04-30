@@ -1,0 +1,35 @@
+.navigation {
+    height: 63px;
+    display: flex;
+    padding: 0 35px;
+    justify-content: space-between;
+    background-color: #528540;
+}
+
+.navigation a div img {
+    padding-top: 7px;
+    height: 50px;
+}
+
+ul {
+    margin-right: 40px;
+}
+
+ul li {
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 18px;
+    color: #FFDE8D;
+    font-weight: 700;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+ul li:hover{
+    color: #CDDE47;
+    transition: 150ms;
+}
